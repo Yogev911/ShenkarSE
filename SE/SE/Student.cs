@@ -8,7 +8,19 @@ namespace SE
 {
     class Student
     {
-        public string name;
+        public string Fname;
+        public string Lname;
+        public string Id;
+        public int SIT;
+        public int Bagrut;
+        public int EnglishUnits;
+        public int MathUnits;
+
+        public Student()
+        {
+
+        }
 
     }
+    
 }
