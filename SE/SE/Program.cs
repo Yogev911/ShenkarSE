@@ -14,11 +14,14 @@ namespace SE
         [STAThread]
         static void Main()
         {
+            MessageBox.Show("hello!");
+            Mail MainObj = new Mail();
+            /*
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
             Console.WriteLine("hello");
-
+            */
         }
     }
 }
